@@ -1,0 +1,42 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.user-nav, .main-nav, .category-nav{
+  display:flex;
+  background-color:white;
+  color:black !important;
+  text-decoration: none !important;
+  padding:0px 10px 0px 10px;
+  height:64px;
+}
+.main-nav{
+  background-color: rgb(249, 176, 176) !important;
+}
+.category-nav{
+  background-color: rgb(255, 132, 132) !important;
+}
+
+.user-nav a, .main-nav a, .category-nav a{
+  color:black !important;
+  text-decoration: none;
+  margin:0px 10px 0px 10px;
+  padding:10px 10px 10px 10px;
+  max-height:60px;
+}
+
+.category-nav a{
+  text-decoration: underline;
+}
+
+a:hover{
+  background-color:rgb(255, 85, 85);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+
+
