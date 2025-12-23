@@ -1,0 +1,324 @@
+{
+    "categories":[
+        {
+            "name":"psy",
+            "slug":"psy",
+            "id":"1",
+            "banner":"dog_banner.png",
+            "products":[
+                {
+                    "food":[
+                        {
+                            "royal-canin":[
+                                {
+                                    "name":"Royal Canin Starter",
+                                    "image":"royal_canin_starter.png"
+                                },
+                                {
+                                    "name":"Royal Canin Mini",
+                                    "image":"royal_canin_mini.png"
+                                },
+                                {
+                                    "name":"Royal Canin Puppy",
+                                    "image":"royal_canin_puppy.png"
+                                },
+                                {
+                                    "name":"Royal Canin Medium",
+                                    "image":"royal_canin_medium.png"
+                                },
+                                {
+                                    "name":"Royal Canin Adult",
+                                    "image":"royal_canin_adult.png"
+                                }
+                            ],
+
+                            "ontario":[
+                                {
+                                    "name":"Ontario Adult Mini",
+                                    "image":"ontario_adult_mini.png"
+                                },
+                                {
+                                    "name":"Ontario Adult Medium",
+                                    "image":"ontario_adult_medium.png"
+                                },
+                                {
+                                    "name":"Ontario Adult Large",
+                                    "image":"ontario_adult_large.png"
+                                },
+                                {
+                                    "name":"Ontario Puppy Mini",
+                                    "image":"ontario_puppy_mini.png"
+                                },
+                                {
+                                    "name":"Ontario All Breeds",
+                                    "image":"ontario_all_breeds.png"
+                                }
+                            ],
+                            "britt":[
+                                {
+                                    "name":"Britt Care Adult Mini",
+                                    "image":"britt_care_adult_mini.png"
+                                },
+                                {
+                                    "name":"Britt Care Adult Medium",
+                                    "image":"britt_care_adult_medium.png"
+                                },
+                                {
+                                    "name":"Britt Premium By Nature",
+                                    "image":"britt_premium_by_nature.png"
+                                },
+                                {
+                                    "name":"Britt Care Adult Grain-Free",
+                                    "image":"britt_care_adult_grain-free.png"
+                                },
+                                {
+                                    "name":"Britt Care Sensitive",
+                                    "image":"britt_care_sensitive.png"
+                                }
+                            ]
+                        }
+                    ],
+
+                    "toys":[
+                        {
+                            "name":"Kosť s pichliačmi",
+                            "image":"kost_s_pichliacmi.png"
+                        },
+                        {
+                            "name":"Gumená Loptička",
+                            "image":"gumena_lopticka.png"
+                        },
+                        {
+                            "name":"Drevená Kosť",
+                            "image":"drevena_kost.png"
+                        },
+                        {
+                            "name":"Plyšová Hračka Pes",
+                            "image":"plysova_hracka_pes.png"
+                        },
+                        {
+                            "name":"Pískacia Hračka Kura",
+                            "image":"piskacia_hracka_kura.png"
+                        }
+                    ],
+                    "accessories":[
+                        {
+                            "name":"Obojok XS",
+                            "image":"obojok_xs.png"
+                        },
+                        {
+                            "name":"Obojok S",
+                            "image":"obojok_m.png"
+                        },
+                        {
+                            "name":"Postroj M",
+                            "image":"postroj_m.png"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name":"macky",
+            "slug":"macky",
+            "id":"2",
+            "banner":"cat_banner.png",
+            "products":[
+                {
+                    "food":[
+                        {
+                            "royal-canine":[
+                                {
+                                    "name":"Royal Canin Kitten",
+                                    "image":"royal_canin_kitten.png"
+                                },
+                                {
+                                    "name":"Royal Canin Sensitive",
+                                    "image":"royal_canin_sensitive.png"
+                                },
+                                {
+                                    "name":"Royal Canin Sterilized",
+                                    "image":"royal_canin_sterilized.png"
+                                }
+                            ],
+
+                            "ontario":[
+                                {
+                                    "name":"Ontario Kitten Kura",
+                                    "image":"ontario_kitten_kura.png"
+                                },
+                                {
+                                    "name":"Ontario Kitten Losos",
+                                    "image":"ontario_adult_medium.png"
+                                },
+                                {
+                                    "name":"Ontario Cat Hair & Skin",
+                                    "image":"ontario_cat_hair_skkin.png"
+                                },
+                                {
+                                    "name":"Ontario Cat Longhair",
+                                    "image":"ontario_cat_longhair.png"
+                                }
+                            ],
+                            "britt":[
+                                {
+                                    "name":"Britt Care Kitten",
+                                    "image":"britt_care_kitten.png"
+                                },
+                                {
+                                    "name":"Britt Care Sensitive",
+                                    "image":"britt_care_sensitive.png"
+                                },
+                                {
+                                    "name":"Britt Care Sterilized",
+                                    "image":"britt_care_sterilized.png"
+                                },
+                                {
+                                    "name":"Britt Care Indoor",
+                                    "image":"britt_care_indoor.png"
+                                }
+                            ]
+                        }
+                    ],
+                    "toys":[
+                        {
+                            "name":"Hračka Myš",
+                            "image":"hracka_mys.png"
+                        },
+                        {
+                            "name":"škrabadlo",
+                            "image":"skrabadlo.png"
+                        }
+                    ]
+                }
+            ]
+        },
+{
+            "name":"hlodavce",
+            "slug":"hlodavce",
+            "id":"3",
+            "banner":"rodents_banner.png",
+            "products":[
+                {
+                    "food":[
+                        {
+                            "guinea_pig":[
+                                {
+                                    "name":"Britt Complete",
+                                    "image":"britt_complete.png"
+                                },
+                                {
+                                    "name":"Versele-Laga Cavia Complete",
+                                    "image":"versele-laga_cavia_complete.png"
+                                }
+                            ],
+
+                            "rabbits":[
+                                {
+                                    "name":"Versele-Laga Complete",
+                                    "image":"versele-laga_cuni_complete.png"
+                                },
+                                {
+                                    "name":"Versele-Laga Nature",
+                                    "image":"versele-laga_ature.png"
+                                }
+                            ],
+                            "hamsters":[
+                                {
+                                    "name":"Britt Hamster Complete",
+                                    "image":"britt_hamster_complete.png"
+                                },
+                                {
+                                    "name":"Vitakraft Menu",
+                                    "image":"vitakraft_menu.png"
+                                },
+                                {
+                                    "name":"Versele-Laga Hamster Complete",
+                                    "image":"versele-laga_hamster_complete.png"
+                                }
+                            ]
+                        }
+                    ],
+                    "toys":[
+                        {
+                            "name":"Koleso pre škrečky",
+                            "image":"koleso_pre_skrecky.png"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name":"vtaci",
+            "slug":"vtaci",
+            "id":"4",
+            "banner":"bird_banner.png",
+            "products":[
+                {
+                    "food":[
+                        {
+                            "parrots":[
+                                {
+                                    "name":"Versele-Laga Prestige",
+                                    "image":"versele-laga_prestige.png"
+                                },
+                                {
+                                    "name":"Versele-Laga Premium Prestige",
+                                    "image":"versele-laga_premium_prestige.png"
+                                },
+                                {
+                                    "name":"Avicentra Classic",
+                                    "image":"avicentra_classic.png"
+                                },
+                                {
+                                    "name":"Nutrin Complete",
+                                    "image":"nutri_complete.png"
+                                }
+                            ]
+
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "name":"akvaristika",
+            "slug":"akvaristika",
+            "id":"5",
+            "banner":"akvaristika_banner.png",
+            "products":[
+                {
+                    "food":[
+                        {
+                            "fish":[
+                                {
+                                    "name":"Tetra Color Sticks",
+                                    "image":"tetra_color_sticks.png"
+                                },
+                                {
+                                    "name":"Tetra Discus Granules",
+                                    "image":"tetra_discus_granules.png"
+                                },
+                                {
+                                    "name":"Tetra Wafer Mix",
+                                    "image":"tetra_water_mix.png"
+                                },
+                                {
+                                    "name":"Tetra Betta",
+                                    "image":"tetra_betta.png"
+                                },
+                                {
+                                    "name":"Tetra Rubin Granules",
+                                    "image":"tetra_rubin_granules.png"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
