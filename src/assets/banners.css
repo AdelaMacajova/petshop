@@ -1,0 +1,21 @@
+.banner-1, .banner-2, .banner-3, .banner-4, .banner-5{
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+
+    background-color: white;
+
+    height:200px;
+    margin-top:200px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform:uppercase;
+    color:rgb(254, 14, 110);
+    text-shadow: 5px 5px 5px black;
+
+    border:7px double rgb(251, 138, 138);
+}

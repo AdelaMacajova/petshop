@@ -1,6 +1,8 @@
 import './assets/main.css'
+import './assets/banners.css'
 import { createApp } from 'vue'
 import App from './App.vue'
+
 
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
