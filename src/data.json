@@ -6,117 +6,191 @@
             "id":"1",
             "banner":"dog_banner.jpg",
             "products":[
-                {
-                    "food":[
                         {
-                            "royal-canin":[
-                                {
-                                    "name":"Royal Canin Starter",
-                                    "image":"royal_canin_starter.webp"
-                                },
-                                {
-                                    "name":"Royal Canin Mini",
-                                    "image":"royal_canin_mini.png"
-                                },
-                                {
-                                    "name":"Royal Canin Puppy",
-                                    "image":"royal_canin_puppy.png"
-                                },
-                                {
-                                    "name":"Royal Canin Medium",
-                                    "image":"royal_canin_medium.png"
-                                },
-                                {
-                                    "name":"Royal Canin Adult",
-                                    "image":"royal_canin_adult.webp"
-                                }
-                            ],
-
-                            "ontario":[
-                                {
-                                    "name":"Ontario Adult Mini",
-                                    "image":"ontario_adult_mini.webp"
-                                },
-                                {
-                                    "name":"Ontario Adult Medium",
-                                    "image":"ontario_adult_medium.webp"
-                                },
-                                {
-                                    "name":"Ontario Adult Large",
-                                    "image":"ontario_adult_large.webp"
-                                },
-                                {
-                                    "name":"Ontario Puppy Mini",
-                                    "image":"ontario_puppy_mini.webp"
-                                },
-                                {
-                                    "name":"Ontario All Breeds",
-                                    "image":"ontario_all_breeds.webp"
-                                }
-                            ],
-                            "britt":[
-                                {
-                                    "name":"Britt Care Adult Mini",
-                                    "image":"britt_care_adult_mini.png"
-                                },
-                                {
-                                    "name":"Britt Care Adult Medium",
-                                    "image":"britt_care_adult_medium.png"
-                                },
-                                {
-                                    "name":"Britt Premium By Nature",
-                                    "image":"britt_premium_by_nature.png"
-                                },
-                                {
-                                    "name":"Britt Care Adult Grain-Free",
-                                    "image":"britt_care_adult_grain-free.png"
-                                },
-                                {
-                                    "name":"Britt Care Sensitive",
-                                    "image":"britt_care_sensitive.png"
-                                }
-                            ]
-                        }
-                    ],
-
-                    "toys":[
+                            "type":"food",
+                            "name":"Royal Canin Starter",
+                            "image":"royal_canin_starter.webp",
+                            "slug":"royal_canin_starter",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"18"
+                        },
                         {
+                            "type":"food",
+                            "name":"Royal Canin Mini",
+                            "image":"royal_canin_mini.png",
+                            "slug":"royal_canin_mini",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"18"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Royal Canin Puppy",
+                            "image":"royal_canin_puppy.png",
+                            "slug":"royal_canin_puppy",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"18"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Royal Canin Medium",
+                            "image":"royal_canin_medium.png",
+                            "slug":"royal_canin_medium",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"18"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Royal Canin Adult",
+                            "image":"royal_canin_adult.webp",
+                            "slug":"royal_canin_adult",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"18"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Ontario Adult Mini",
+                            "image":"ontario_adult_mini.webp",
+                            "slug":"ontario_adult_mini",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"15"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Ontario Adult Medium",
+                            "image":"ontario_adult_medium.webp",
+                            "slug":"ontario_adult_medium",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"15"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Ontario Adult Large",
+                            "image":"ontario_adult_large.webp",
+                            "slug":"ontario_adult_large",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"15"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Ontario Puppy Mini",
+                            "image":"ontario_puppy_mini.webp",
+                            "slug":"ontario_puppy_mini",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"15"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Ontario All Breeds",
+                            "image":"ontario_all_breeds.webp",
+                            "slug":"ontario_all_breeds",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"15"
+                        },                            
+                        {
+                            "type":"food",
+                            "name":"Britt Care Adult Mini",
+                            "image":"britt_care_adult_mini.png",
+                            "slug":"britt_care_adult_mini",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"13"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Britt Care Adult Medium",
+                            "image":"britt_care_adult_medium.png",
+                            "slug":"britt_care_adult_medium",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"13"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Britt Premium By Nature",
+                            "image":"britt_premium_by_nature.png",
+                            "slug":"britt_premium_by_nature",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"13"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Britt Care Adult Grain-Free",
+                            "image":"britt_care_adult_grain-free.png",
+                            "slug":"britt_care_adult_grain",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"13"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Britt Care Sensitive",
+                            "image":"britt_care_sensitive.png",
+                            "slug":"britt_care_sensitive",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"13"
+                        },
+                        {
+                            "type":"toys",
                             "name":"Kosť s pichliačmi",
-                            "image":"kost_s_pichliacmi.webp"
+                            "image":"kost_s_pichliacmi.webp",
+                            "slug":"kost_s_pichliacmi",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"4"
                         },
                         {
+                            "type":"toys",
                             "name":"Gumená Loptička",
-                            "image":"gumena_lopticka.png"
+                            "image":"gumena_lopticka.png",
+                            "slug":"gumena_lopticka",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"3"
                         },
                         {
+                            "type":"toys",
                             "name":"Drevená Kosť",
-                            "image":"drevena_kost.webp"
+                            "image":"drevena_kost.webp",
+                            "slug":"drevena_kost",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"3"
                         },
                         {
+                            "type":"toys",
                             "name":"Plyšová Hračka Pes",
-                            "image":"plysova_hracka_pes.webp"
+                            "image":"plysova_hracka_pes.webp",
+                            "slug":"plysova_hracka_pes",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"9"
                         },
                         {
+                            "type":"toys",
                             "name":"Pískacia Hračka Kura",
-                            "image":"piskacia_hracka_kura.webp"
-                        }
-                    ],
-                    "accessories":[
+                            "image":"piskacia_hracka_kura.webp",
+                            "slug":"piskacia_hracka_kura",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"5"
+                        },
                         {
+                            "type":"accessories",
                             "name":"Obojok XS",
-                            "image":"obojok_xs.webp"
+                            "image":"obojok_xs.webp",
+                            "slug":"obojok_xs",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"13"
                         },
                         {
+                            "type":"accessories",
                             "name":"Obojok S",
-                            "image":"obojok_m.webp"
+                            "image":"obojok_m.webp",
+                            "slug":"obojok_s",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"14"
                         },
                         {
+                            "type":"accessories",
                             "name":"Postroj M",
-                            "image":"postroj_m.webp"
+                            "image":"postroj_m.webp",
+                            "slug":"postroj_m",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"22"
                         }
-                    ]
-                }
-            ]
+                ]
         },
 
         {
@@ -124,131 +198,186 @@
             "slug":"macky",
             "id":"2",
             "banner":"cat_banner.jpg",
-            "products":[
-                {
-                    "food":[
+            "products":[         
                         {
-                            "royal-canine":[
-                                {
-                                    "name":"Royal Canin Kitten",
-                                    "image":"royal_canin_kitten.webp"
-                                },
-                                {
-                                    "name":"Royal Canin Sensitive",
-                                    "image":"royal_canin_sensitive.png"
-                                },
-                                {
-                                    "name":"Royal Canin Sterilized",
-                                    "image":"royal_canin_sterilized.webp"
-                                }
-                            ],
-
-                            "ontario":[
-                                {
-                                    "name":"Ontario Kitten Kura",
-                                    "image":"ontario_kitten_kura.webp"
-                                },
-                                {
-                                    "name":"Ontario Kitten Losos",
-                                    "image":"ontario_kitten_losos.png"
-                                },
-                                {
-                                    "name":"Ontario Cat Hair & Skin",
-                                    "image":"ontario_cat_hair_skin.webp"
-                                },
-                                {
-                                    "name":"Ontario Cat Longhair",
-                                    "image":"ontario_cat_longhair.webp"
-                                }
-                            ],
-                            "britt":[
-                                {
-                                    "name":"Britt Care Kitten",
-                                    "image":"britt_care_kitten.png"
-                                },
-                                {
-                                    "name":"Britt Care Sensitive",
-                                    "image":"britt_care_sensitive.png"
-                                },
-                                {
-                                    "name":"Britt Care Sterilized",
-                                    "image":"britt_care_sterilized.png"
-                                },
-                                {
-                                    "name":"Britt Care Indoor",
-                                    "image":"britt_care_indoor.png"
-                                }
-                            ]
-                        }
-                    ],
-                    "toys":[
-                        {
-                            "name":"Hračka Myš",
-                            "image":"hracka_mys.webp"
+                            "type":"food",
+                            "name":"Royal Canin Kitten",
+                            "image":"royal_canin_kitten.webp",
+                            "slug":"royal_canin_kitten",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"14"
                         },
                         {
+                            "type":"food",
+                            "name":"Royal Canin Sensitive",
+                            "image":"royal_canin_sensitive.png",
+                            "slug":"royal_canin_kitten",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"14"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Royal Canin Sterilized",
+                            "image":"royal_canin_sterilized.webp",
+                            "slug":"royal_canin_sterilized",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"14"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Ontario Kitten Kura",
+                            "image":"ontario_kitten_kura.webp",
+                            "slug":"ontario_kitten_kura",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"14"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Ontario Kitten Losos",
+                            "image":"ontario_kitten_losos.png",
+                            "slug":"ontario_kitten_losos",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"14"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Ontario Cat Hair & Skin",
+                            "image":"ontario_cat_hair_skin.webp",
+                            "slug":"ontario_cat_hair_skin",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"14"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Ontario Cat Longhair",
+                            "image":"ontario_cat_longhair.webp",
+                            "slug":"ontario_cat_longhair",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"14"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Britt Care Kitten",
+                            "image":"britt_care_kitten.png",
+                            "slug":"britt_care_kitten",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"13"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Britt Care Sensitive Cats",
+                            "image":"britt_care_sensitive_cats.png",
+                            "slug":"britt_care_sensitive_cats",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"13"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Britt Care Sterilized",
+                            "image":"britt_care_sterilized.png",
+                            "slug":"britt_care_sterilized",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"13"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Britt Care Indoor",
+                            "image":"britt_care_indoor.png",
+                            "slug":"britt_care_indoor",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"13"
+                        },
+                        {
+                            "type":"toys",
+                            "name":"Hračka Myš",
+                            "image":"hracka_mys.webp",
+                            "slug":"hracka_mys",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"3"
+                        },
+                        {
+                            "type":"toys",
                             "name":"škrabadlo",
-                            "image":"skrabadlo.png"
+                            "image":"skrabadlo.png",
+                            "slug":"skrabadlo",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"18"
                         }
                     ]
-                }
-            ]
-        },
+                },
 {
             "name":"Hlodavce",
             "slug":"hlodavce",
             "id":"3",
             "banner":"rodents_banner.jpg",
             "products":[
-                {
-                    "food":[
+                
                         {
-                            "guinea_pig":[
-                                {
-                                    "name":"Britt Complete",
-                                    "image":"britt_complete.png"
-                                },
-                                {
-                                    "name":"Versele-Laga Cavia Complete",
-                                    "image":"versele-laga_cavia_complete.png"
-                                }
-                            ],
-
-                            "rabbits":[
-                                {
-                                    "name":"Versele-Laga Complete",
-                                    "image":"versele-laga_cuni_complete.png"
-                                },
-                                {
-                                    "name":"Versele-Laga Nature",
-                                    "image":"versele-laga_nature.png"
-                                }
-                            ],
-                            "hamsters":[
-                                {
-                                    "name":"Britt Hamster Complete",
-                                    "image":"britt_hamster_complete.png"
-                                },
-                                {
-                                    "name":"Vitakraft Menu",
-                                    "image":"vitakraft_menu.png"
-                                },
-                                {
-                                    "name":"Versele-Laga Hamster Complete",
-                                    "image":"versele-laga_hamster_complete.webp"
-                                }
-                            ]
-                        }
-                    ],
-                    "toys":[
+                            "type":"food",
+                            "name":"Britt Complete",
+                            "image":"britt_complete.png",
+                            "slug":"britt_complete",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"6"
+                        },
                         {
+                            "type":"food",
+                            "name":"Versele-Laga Cavia Complete",
+                            "image":"versele-laga_cavia_complete.png",
+                            "slug":"versele-laga_cavia_complete",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"6"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Versele-Laga Complete",
+                            "image":"versele-laga_cuni_complete.png",
+                            "slug":"versele-laga_cuni_complete",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"7"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Versele-Laga Nature",
+                            "image":"versele-laga_nature.png",
+                            "slug":"versele-laga_nature",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"7"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Britt Hamster Complete",
+                            "image":"britt_hamster_complete.webp",
+                            "slug":"britt_hamster_complete",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"7"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Vitakraft Menu",
+                            "image":"vitakraft_menu.webp",
+                            "slug":"vitakraft_menu",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"5"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Versele-Laga Hamster Complete",
+                            "image":"versele-laga_hamster_complete.png",
+                            "slug":"versele-laga_hamster_complete",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"6"
+                        },
+                        {
+                            "type":"toys",
                             "name":"Koleso pre škrečky",
-                            "image":"koleso_pre_skrecky.webp"
+                            "image":"koleso_pre_skrecky.webp",
+                            "slug":"koleso_pre_skrecky",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"12"
                         }
                     ]
-                }
-            ]
-        },
+                },
 
         {
             "name":"Vtáci",
@@ -256,33 +385,40 @@
             "id":"4",
             "banner":"bird_banner.jpg",
             "products":[
-                {
-                    "food":[
                         {
-                            "parrots":[
-                                {
-                                    "name":"Versele-Laga Prestige",
-                                    "image":"versele-laga_prestige.png"
-                                },
-                                {
-                                    "name":"Versele-Laga Premium Prestige",
-                                    "image":"versele-laga_premium_prestige.png"
-                                },
-                                {
-                                    "name":"Avicentra Deluxe",
-                                    "image":"avicentra_deluxe.png"
-                                },
-                                {
-                                    "name":"Nutrin Complete",
-                                    "image":"nutri_complete.webp"
-                                }
-                            ]
-
+                            "type":"food",
+                            "name":"Versele-Laga Prestige",
+                            "image":"versele-laga_prestige.png",
+                            "slug":"versele-laga_prestige",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"8"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Versele-Laga Premium Prestige",
+                            "image":"versele-laga_premium_prestige.png",
+                            "slug":"versele-laga_premium_prestige",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"8"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Avicentra Deluxe",
+                            "image":"avicentra_deluxe.png",
+                            "slug":"avicentra_deluxe",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"8"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Nutrin Complete",
+                            "image":"nutri_complete.webp",
+                            "slug":"nutri_complete",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"8"
                         }
                     ]
-                }
-            ]
-        },
+                },
 
         {
             "name":"Akvaristika",
@@ -290,35 +426,47 @@
             "id":"5",
             "banner":"akvaristika_banner.jpg",
             "products":[
-                {
-                    "food":[
                         {
-                            "fish":[
-                                {
-                                    "name":"Tetra Color Sticks",
-                                    "image":"tetra_color_sticks.webp"
-                                },
-                                {
-                                    "name":"Tetra Discus Granules",
-                                    "image":"tetra_discus_granules.png"
-                                },
-                                {
-                                    "name":"Tetra Wafer Mix",
-                                    "image":"tetra_wafer_mix.png"
-                                },
-                                {
-                                    "name":"Tetra Betta",
-                                    "image":"tetra_betta.png"
-                                },
-                                {
-                                    "name":"Tetra Rubin Granules",
-                                    "image":"tetra_rubin_granules.webp"
-                                }
-                            ]
+                            "type":"food",
+                            "name":"Tetra Color Sticks",
+                            "image":"tetra_color_sticks.webp",
+                            "slug":"tetra_color_sticks",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"4"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Tetra Discus Granules",
+                            "image":"tetra_discus_granules.png",
+                            "slug":"tetra_discus_granules",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"4"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Tetra Wafer Mix",
+                            "image":"tetra_wafer_mix.png",
+                            "slug":"tetra_wafer_mix",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"4"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Tetra Betta",
+                            "image":"tetra_betta.png",
+                            "slug":"tetra_betta",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"4"
+                        },
+                        {
+                            "type":"food",
+                            "name":"Tetra Rubin Granules",
+                            "image":"tetra_rubin_granules.webp",
+                            "slug":"tetra_rubin_granules",
+                            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            ,"price":"4"
                         }
                     ]
                 }
-            ]
-        }
     ]
 }

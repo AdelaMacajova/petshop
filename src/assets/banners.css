@@ -1,8 +1,8 @@
-.banner-1, .banner-2, .banner-3, .banner-4, .banner-5{
+.banners{
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
-
+    
     background-color: white;
 
     height:200px;
