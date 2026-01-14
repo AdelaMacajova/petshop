@@ -100,3 +100,46 @@ a:hover{
   height:100%;
   color: rgb(243, 168, 180);
 }
+
+.product-view{
+  margin-top:20vh;
+}
+.product{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin:20px;
+}
+.product-img-box{
+  height:200px;
+  width:200px;
+}
+.product img{
+  height:100%;
+  object-fit: scale-down;
+}
+
+.product-info{
+  padding:5vw;
+  text-align:justify;
+}.product-info h1, .product-info h2{
+  font-weight: bold;
+}
+
+.product-info button{
+  display: flex;
+
+  background-color: rgb(235, 255, 210);
+  padding: 5px;
+  margin-top: 1vw;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid rgb(122, 192, 36);
+  padding: 5px;
+}
+
+.product-info button:hover{
+  background-color: rgb(186, 251, 107);
+  }
