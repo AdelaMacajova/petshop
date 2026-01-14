@@ -142,4 +142,33 @@ a:hover{
 
 .product-info button:hover{
   background-color: rgb(186, 251, 107);
-  }
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(46, 15, 23);
+  color: white;
+  justify-content: space-between;
+  height:100%;
+}
+.footer-links, .footer-contact, .footer-about-us, .footer-map{
+  display:flex;
+  flex-direction: column;
+  padding: 0vw 5vw 1vw 5vw;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+
+.footer-links a, .footer-contact a, .footer-about-us p{
+  text-decoration: none;
+  color:white;
+  font-size: 1vw;
+  color:rgb(174, 174, 174);
+}
+
+.footer-links a:hover, .footer-contact a:hover{
+  background-color: rgba(240, 248, 255, 0.205);
+}
+
+/*PRIDAT :ACTIVE PRE TLACIDLA V NAVIGACII, RESPONZIVNOST PRE MOBILY*/
