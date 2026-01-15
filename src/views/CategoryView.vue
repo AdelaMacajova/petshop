@@ -7,7 +7,8 @@
 
     <div class="product-cards card-wrapper">
         <div class="product-card" v-for="product in dataProducts" :key="product.name">
-            <RouterLink :to="'/product/' + product.slug"><div class="category-img-box"><img :src="'img/products/'+product.type+'/'+product.image"></div></RouterLink>
+            <RouterLink :to="'/eshop/product/' + product.slug">
+            <div class="category-img-box"><img :src="'/img/products/'+product.type+'/'+product.image"></div></RouterLink>
             <label class="product-name">{{ product.name }}</label>
             <div class="price-cart-row">
                 <label>{{ product.price }}€</label>

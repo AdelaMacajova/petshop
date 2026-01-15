@@ -1,19 +1,17 @@
 <template>
-  <CategoryNavigation/>
-  <RouterView/>
+  <div class="home-content">
+      <h1>Vitajte v Alvin's Pet Shop!</h1>
+  </div>
 </template>
+
 <script>
-import { RouterLink, RouterView } from 'vue-router'
-import CategoryNavigation from '../components/CategoryNavigation.vue'
 
 export default{
   components:{
-    CategoryNavigation, RouterView
+    
   },
   data(){
-    return{
 
-    }
   },
   methods:{
 

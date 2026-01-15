@@ -1,6 +1,6 @@
 <template>
     <v-app-bar class="category-nav">
-        <RouterLink :to="'/'+category.slug" v-for="category in categories">{{ category.name }}</RouterLink>
+        <RouterLink :to="'/eshop/'+category.slug" v-for="category in categories">{{ category.name }}</RouterLink>
     </v-app-bar>
 </template>
 
