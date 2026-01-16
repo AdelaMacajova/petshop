@@ -22,7 +22,7 @@
         </div>
         <div class="footer-map">
              <h3>Nájdete nás</h3>
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85098.98338044996!2d17.065666838735776!3d48.20000443573131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8e63c10cf6c7%3A0x8f6377a3c30c0156!2sBratislava%20III%2C%20Bratislava!5e0!3m2!1ssk!2ssk!4v1768415324483!5m2!1ssk!2ssk" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85098.98338044996!2d17.065666838735776!3d48.20000443573131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8e63c10cf6c7%3A0x8f6377a3c30c0156!2sBratislava%20III%2C%20Bratislava!5e0!3m2!1ssk!2ssk!4v1768415324483!5m2!1ssk!2ssk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </footer>
 </template>

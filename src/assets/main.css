@@ -13,12 +13,14 @@
   text-decoration: none !important;
   padding:0px 10px 0px 10px;
   height:64px;
+  position:sticky!important; 
+  
 }
 .main-nav{
-  background-color: rgb(249, 176, 176) !important;
+  background-color: rgb(228, 249, 176) !important;
 }
 .category-nav{
-  background-color: rgb(255, 132, 132) !important;
+  background-color: rgb(174, 239, 108) !important;
 }
 
 .user-nav a, .main-nav a, .category-nav a{
@@ -26,7 +28,7 @@
   text-decoration: none;
   margin:0px 10px 0px 10px;
   padding:10px 10px 10px 10px;
-  max-height:60px;
+  font-size: 1vw;
 }
 
 .category-nav a{
@@ -50,11 +52,11 @@ a:hover{
   display:flex;
   flex-direction: column;
   justify-content: center;
-  border: 2px solid rgb(255, 172, 172);
   border-radius: 8px;
-  background-color: rgb(249, 238, 240);
-  width:350px;
+  background-color: rgb(241, 252, 221);
+  width:20vw;
   margin:10px;
+  font-size:1vw;
 }
 
 .price-cart-row{
@@ -63,10 +65,10 @@ a:hover{
   justify-content: space-evenly;
 }
 .category-img-box{
-  height:200px;
   display:flex;
   justify-content: center;
   align-items: center;
+  height:10vw;
 }
 .product-card img{
   height:100%;
@@ -80,42 +82,40 @@ a:hover{
 }
 
 .price-cart-row{
-  background-color: pink;
+  background-color: rgb(227, 255, 192);
 }.price-cart-row button, .price-cart-row label{
   width:100%;
   text-align: center;
 }.price-cart-row button:hover{
-  background-color:rgb(246, 142, 160);
+  background-color:rgb(255, 255, 255);
   transition:0.3s
 }
 
 .product-name{
-    background-color: pink;
-    border-top:2px solid rgb(243, 168, 180);
-    border-bottom:2px solid rgb(243, 168, 180);
+    background-color: rgb(227, 255, 192);
+    border-top:2px solid rgb(194, 243, 168);
+    border-bottom:2px solid rgb(194, 243, 168);
     font-weight: bold;
     text-align: center;
 
 }
 .separator{
   height:100%;
-  color: rgb(243, 168, 180);
+  color: rgb(194, 243, 168);
 }
 
-.product-view{
-  margin-top:20vh;
-}
 .product{
   display:flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-size: 1vw;
 
   margin:20px;
 }
 .product-img-box{
-  height:200px;
-  width:200px;
+  height:35vw;
+  width:35vw;
 }
 .product img{
   height:100%;
@@ -148,10 +148,10 @@ a:hover{
 .footer{
   display: flex;
   flex-direction: row;
-  background-color: rgb(46, 15, 23);
+  background-color: rgb(29, 29, 29);
   color: white;
   justify-content: space-between;
-  height:100%;
+  height:40%;
 }
 .footer-links, .footer-contact, .footer-about-us, .footer-map{
   display:flex;
@@ -172,7 +172,6 @@ a:hover{
   background-color: rgba(240, 248, 255, 0.205);
 }
 .home-content{
-  margin-top:150px;
   height: 100%;
   padding:2vw;
 }.home-content h2{
@@ -197,6 +196,53 @@ a:hover{
   background-position:0;
 }
 
+iframe{
+  height:10vw;
+  width:15vw;
+}
+@media(max-width: 1200px){
+    .main-nav a, .user-nav a, .category-nav a{
+      font-size:12px;
+  }
+}
+@media(max-width:900px){
+  .product-card{
+    font-size:2vw;
+    width:30vw;
+  }
+  .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .category-img-box{
+    height:20vw;
+  }
+  .product{
+    font-size: 1.5vw;
+  }
+}
+@media(max-width: 600px){
+  .product-card{
+    font-size:2vw;
+    width:40vw;
+  }
+  .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .category-img-box{
+    height:30vw;
+  }
+  .main-nav a, .user-nav a, .category-nav a{
+      font-size:3vw;
+  }
+  .product{
+    font-size: 2vw;
+  }
+  .footer-links, .footer-links a, .footer-contact, .footer-contact a, .footer-about-us, .footer-about-us p, .footer-map{
+    font-size:2vw;
+  }
+}
 
 
 /*PRIDAT :ACTIVE PRE TLACIDLA V NAVIGACII, RESPONZIVNOST PRE MOBILY*/

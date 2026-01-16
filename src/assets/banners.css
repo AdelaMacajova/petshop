@@ -5,17 +5,23 @@
     
     background-color: white;
 
-    height:200px;
-    margin-top:200px;
+    height:15vw;
+    margin-top:10px;
 
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 5vw;
     font-weight: bold;
     text-transform:uppercase;
-    color:rgb(254, 14, 110);
-    text-shadow: 5px 5px 5px black;
+    /*color:rgb(3, 233, 11);*/
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(255, 254, 254);
 
-    border:7px double rgb(251, 138, 138);
+    border:7px double rgb(191, 251, 138);
+}
+@media(max-width: 600px){
+    .banners{
+        height:30vw;
+    }
 }
