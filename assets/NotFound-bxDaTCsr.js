@@ -1,0 +1,1 @@
+import{_ as n,c as t,a as e,o as s}from"./index-y5X4O_Pu.js";const a={},c={class:"notfound"};function r(d,o){return s(),t("div",c,[...o[0]||(o[0]=[e("h1",null,"404",-1),e("h2",null,"Page not found",-1)])])}const _=n(a,[["render",r]]);export{_ as default};
