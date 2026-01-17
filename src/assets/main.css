@@ -289,6 +289,11 @@ iframe{
   padding:1vw;
 }
 
+.notfound{
+  font-size: 5vw;
+  margin:5vw;
+}
+
 @media(max-width: 1200px){
     .main-nav a, .user-nav a, .category-nav a{
       font-size:12px;
@@ -351,7 +356,7 @@ iframe{
   .footer-links, .footer-links a, .footer-contact, .footer-contact a, .footer-about-us, .footer-about-us p, .footer-map{
     font-size:2vw;
   }
-  
+
   .blog-card{
     font-size: 2vw;
   }
