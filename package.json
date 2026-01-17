@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/adelamacajova/petshop.git"
+
   },
   "dependencies": {
     "pinia": "^3.0.4",
