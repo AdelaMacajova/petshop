@@ -11,18 +11,18 @@
         </div>
     </div>
 </template>
+
 <script>
     import {useCartStore} from "../stores/cart.js"
     import data from '../data.json';
+    
     export default{
         data(){
             return{
                 cartStore: useCartStore()
             }
         },
-        methods:{
 
-        },
         computed:{
             product(){
                 const productSlug = this.$route.params.productSlug;

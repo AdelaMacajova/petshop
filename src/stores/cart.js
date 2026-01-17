@@ -16,6 +16,7 @@ export const useCartStore = defineStore('cartStore',{
                 }
             }
         },
+        
         cleanCart(){
             for(let i=this.cart.length-1; i>=0; i--){
                 if(!this.cart[i] || !this.cart[i].id)

@@ -20,6 +20,7 @@
 
     border:7px double rgb(191, 251, 138);
 }
+
 @media(max-width: 600px){
     .banners{
         height:30vw;

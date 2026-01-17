@@ -17,7 +17,6 @@
             </div>
         </div>
     </div>
-
 </template>
 
 <script>
@@ -29,6 +28,7 @@
         components:{
             RouterLink
         },
+
         data(){
             return{
                 categories: data.categories,
@@ -43,9 +43,9 @@
                 for(let i=0; i<data.categories.length; i++){
                     if(data.categories[i].slug === categorySlug)
                         return data.categories[i].products;
-                    }
+                }
                 return [];
-                }   
-            },
+            }   
+        }
     }
 </script>

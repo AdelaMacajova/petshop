@@ -13,12 +13,13 @@
   text-decoration: none !important;
   padding:0px 10px 0px 10px;
   height:64px;
-  position:sticky!important; 
-  
+  position:sticky!important;   
 }
+
 .main-nav{
   background-color: rgb(228, 249, 176) !important;
 }
+
 .category-nav{
   background-color: rgb(174, 239, 108) !important;
 }
@@ -64,18 +65,21 @@ a:hover{
   flex-direction: row;
   justify-content: space-evenly;
 }
+
 .category-img-box{
   display:flex;
   justify-content: center;
   align-items: center;
   height:10vw;
 }
+
 .product-card img{
   height:100%;
   width:100%;
   object-fit: scale-down;
   /*border:1px solid black;*/
 }
+
 .card-wrapper{
   display:grid;
   grid-template-columns: repeat(4, 1fr);
@@ -83,10 +87,14 @@ a:hover{
 
 .price-cart-row{
   background-color: rgb(227, 255, 192);
-}.price-cart-row button, .price-cart-row label{
+}
+
+.price-cart-row button, .price-cart-row label{
   width:100%;
   text-align: center;
-}.price-cart-row button:hover{
+}
+
+.price-cart-row button:hover{
   background-color:rgb(255, 255, 255);
   transition:0.3s
 }
@@ -97,8 +105,8 @@ a:hover{
     border-bottom:2px solid rgb(194, 243, 168);
     font-weight: bold;
     text-align: center;
-
 }
+
 .separator{
   height:100%;
   color: rgb(194, 243, 168);
@@ -110,13 +118,14 @@ a:hover{
   justify-content: center;
   align-items: center;
   font-size: 1vw;
-
   margin:20px;
 }
+
 .product-img-box{
   height:35vw;
   width:35vw;
 }
+
 .product img{
   height:100%;
   object-fit: scale-down;
@@ -125,13 +134,14 @@ a:hover{
 .product-info{
   padding:5vw;
   text-align:justify;
-}.product-info h1, .product-info h2{
+}
+
+.product-info h1, .product-info h2{
   font-weight: bold;
 }
 
 .product-info button{
   display: flex;
-
   background-color: rgb(235, 255, 210);
   padding: 5px;
   margin-top: 1vw;
@@ -153,6 +163,7 @@ a:hover{
   justify-content: space-between;
   height:40%;
 }
+
 .footer-links, .footer-contact, .footer-about-us, .footer-map{
   display:flex;
   flex-direction: column;
@@ -171,13 +182,18 @@ a:hover{
 .footer-links a:hover, .footer-contact a:hover{
   background-color: rgba(240, 248, 255, 0.205);
 }
+
 .home-content{
   height: 100%;
   padding:2vw;
-}.home-content h2{
+}
+
+.home-content h2{
   font-weight: bold;
   font-size:2vw;
-}.home-content a{
+}
+
+.home-content a{
   color:rgb(207, 255, 135);
   font-size:1.6vw;
   padding:8;
@@ -192,7 +208,9 @@ a:hover{
   padding: 2vw;
   background-image: url("/img/banners/welcome_banner.jpg");
   background-size: cover;
-}.home-blog-card{
+}
+
+.home-blog-card{
   background-position:0;
 }
 
@@ -214,9 +232,11 @@ iframe{
   color:black;
   text-decoration: none;
 }
+
 .blog-card h2{
   font-weight: bold;
 }
+
 .blog-card:hover{
   box-shadow: 5px 5px 5px rgba(36, 31, 31, 0.44);
   background-color: rgb(227, 255, 192);
@@ -228,8 +248,8 @@ iframe{
   font-size: 1vw;
   margin: 0px 4vw 0px 4vw;
   text-align: justify;
-
 }
+
 .cart-row{
   margin:1vw;
   display:flex;
@@ -238,26 +258,33 @@ iframe{
   border:2px solid rgb(33, 33, 33);
   height:7vw;
   justify-content: space-between;
-}.cart-row *{
+}
+
+.cart-row *{
   padding:0.5vw;
   height:100%;
   display:flex;
   align-items: center;
 }
+
 .cart-img img{
   object-fit: scale-down;
 }
+
 .cart-row button{
   color:rgb(208, 0, 0);
 }
+
 .cart-img-name-price{
   display:flex;
   justify-content: space-between;
   width:50%
 }
+
 .cart{
-    font-size: 1vw;
+  font-size: 1vw;
 }
+
 .cart h3{
   padding:1vw;
 }
@@ -267,24 +294,30 @@ iframe{
       font-size:12px;
   }
 }
+
 @media(max-width:900px){
   .cart{
     font-size: 1.5vw;
   }
+
   .product-card{
     font-size:2vw;
     width:30vw;
   }
+
   .card-wrapper{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
   .category-img-box{
     height:20vw;
   }
+
   .product{
     font-size: 1.5vw;
   }
+
   .blog-card{
     font-size: 1.5vw;
   }
@@ -297,27 +330,29 @@ iframe{
     font-size:2vw;
     width:40vw;
   }
+
   .card-wrapper{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
   .category-img-box{
     height:30vw;
   }
+
   .main-nav a, .user-nav a, .category-nav a{
       font-size:3vw;
   }
+
   .product{
     font-size: 2vw;
   }
+
   .footer-links, .footer-links a, .footer-contact, .footer-contact a, .footer-about-us, .footer-about-us p, .footer-map{
     font-size:2vw;
   }
+  
   .blog-card{
     font-size: 2vw;
   }
 }
-
-
-/*PRIDAT :ACTIVE PRE TLACIDLA V NAVIGACII, RESPONZIVNOST PRE MOBILY*/
-

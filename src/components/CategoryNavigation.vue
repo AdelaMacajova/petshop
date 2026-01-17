@@ -1,6 +1,6 @@
 <template>
     <v-app-bar class="category-nav">
-        <RouterLink :to="'/eshop/'+category.slug" v-for="category in categories">{{ category.name }}</RouterLink>
+        <RouterLink :to="'/eshop/'+category.slug" v-for="category in categories" :key="category.id">{{ category.name }}</RouterLink>
     </v-app-bar>
 </template>
 
@@ -12,13 +12,11 @@
         components:{
             RouterLink
         },
+
         data(){
             return{
                 categories: data.categories
             }
-        },
-        methods:{
-
-        },
+        }
     }
 </script>

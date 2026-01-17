@@ -7,23 +7,21 @@
             </div>
         </RouterLink>
     </div>
-    <RouterView/>
 </template>
+
 <script>
-    import { RouterLink, RouterView } from 'vue-router';
+    import { RouterLink } from 'vue-router';
     import data from '../data.json';
 
     export default{
         components:{
-            RouterLink, RouterView
+            RouterLink
         },
+        
         data(){
             return{
                 articles: data.articles
             }
-        },
-        methods:{
-
-        },
+        }
     }
 </script>

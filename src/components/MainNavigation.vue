@@ -5,17 +5,19 @@
         <RouterLink to="/blog"><strong>BLOG</strong></RouterLink>
     </v-app-bar>
 </template>
+
 <script>
     import { RouterLink } from 'vue-router';
+
     export default{
         components:{
             RouterLink
         },
-        data(){
-            return{}
-        },
-        methods:{
 
-        },
+        data(){
+            return{
+                
+            }
+        }
     }
 </script>

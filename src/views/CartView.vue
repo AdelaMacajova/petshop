@@ -11,18 +11,20 @@
             <div><button @click="cartStore.removeFromCart(product)"><v-icon icon="mdi-alpha-x-box"></v-icon>Odstrániť</button></div>
         </div>
         <hr>
-        <h3>Total price: {{ totalPrice }}</h3>
+        <h3>Cena spolu: {{ totalPrice }}€</h3>
     </div>
 </template>
 
 <script>
 import {useCartStore} from "../stores/cart.js"
+
 export default{
     data(){
         return{
             cartStore: useCartStore()
         }
     },
+
     computed:{
         totalPrice(){
             let price=0;
@@ -32,5 +34,6 @@ export default{
             return price
         }
     }
+    
 }
 </script>
