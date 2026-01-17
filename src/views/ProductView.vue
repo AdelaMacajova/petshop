@@ -6,18 +6,18 @@
                 <h1>{{ product.name }}</h1>
                 <h2>{{ product.price }}€</h2>
                 <p>{{ product.description }}</p>
-                <button>Pridať do košíka</button>
+                <button @click="cartStore.addToCart(product)">Pridať do košíka</button>
             </div>
         </div>
     </div>
 </template>
 <script>
+    import {useCartStore} from "../stores/cart.js"
     import data from '../data.json';
-
     export default{
         data(){
             return{
-
+                cartStore: useCartStore()
             }
         },
         methods:{

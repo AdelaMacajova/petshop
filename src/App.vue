@@ -18,7 +18,9 @@ export default{
     UserNavigation, MainNavigation, FooterNavigation
   },
   data(){
-
+    return{
+      
+    }
   },
   methods:{
 

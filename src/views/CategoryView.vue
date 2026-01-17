@@ -6,14 +6,14 @@
     </div>
 
     <div class="product-cards card-wrapper">
-        <div class="product-card" v-for="product in dataProducts" :key="product.name">
+        <div class="product-card" v-for="product in dataProducts" :key="product.id">
             <RouterLink :to="'/eshop/product/' + product.slug">
             <div class="category-img-box"><img :src="'/img/products/'+product.type+'/'+product.image"></div></RouterLink>
             <label class="product-name">{{ product.name }}</label>
             <div class="price-cart-row">
                 <label>{{ product.price }}€</label>
                 <hr class="separator">
-                <button @click=""><v-icon icon="mdi-cart"></v-icon></button>
+                <button @click="cartStore.addToCart(product)"><v-icon icon="mdi-cart"></v-icon></button>
             </div>
         </div>
     </div>
@@ -21,6 +21,7 @@
 </template>
 
 <script>
+    import {useCartStore} from "../stores/cart.js"
     import { RouterLink } from 'vue-router';
     import data from '../data.json';
 
@@ -30,12 +31,11 @@
         },
         data(){
             return{
-                categories: data.categories
+                categories: data.categories,
+                cartStore: useCartStore()
             }
         },
-        methods:{
 
-        },
         computed:{
             dataProducts(){
                 const categorySlug = this.$route.params.categorySlug;
@@ -46,6 +46,6 @@
                     }
                 return [];
                 }   
-            }
-        }
+            },
+    }
 </script>

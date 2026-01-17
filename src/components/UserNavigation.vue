@@ -8,7 +8,7 @@
             Alvin's Pet Shop
             </strong>
         </v-app-bar-title>
-        <RouterLink to="/login">Prihlásiť sa</RouterLink> <!-- Login -->
+        <!--<RouterLink to="/login">Prihlásiť sa</RouterLink>  Login -->
         <RouterLink to="/cart"><v-icon icon="mdi-cart-variant"></v-icon></RouterLink>
     </v-app-bar>
 </template>
@@ -19,7 +19,9 @@
             RouterLink
         },
         data(){
+            return{
 
+            }
         },
         methods:{
 
