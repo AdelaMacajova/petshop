@@ -1,0 +1,1 @@
+import{i as a}from"./index-C8qTyaJf.js";const i=a("cartStore",{state:()=>({cart:[]}),actions:{addToCart(t){this.cart.push(t)},removeFromCart(t){for(let r=0;r<this.cart.length;r++)if(this.cart[r]===t){this.cart.splice(r,1);break}},cleanCart(){for(let t=this.cart.length-1;t>=0;t--)(!this.cart[t]||!this.cart[t].id)&&this.cart.splice(t,1)}},persist:!0});export{i as u};
