@@ -3,7 +3,7 @@
         <div class="cart-row" v-for="product in cartStore.cart" :key="product.id">
             <div class="cart-img-name-price">
                 <div>
-                    <div class="cart-img"><img :src="'/img/products/'+product.type+'/'+product.image"></div>
+                    <div class="cart-img"><img :src="baseUrl+'img/products/'+product.type+'/'+product.image"></div>
                     <h2>{{ product.name }}</h2>
                 </div>
                 <label>Cena: {{ product.price }}€</label>
@@ -21,7 +21,8 @@ import {useCartStore} from "../stores/cart.js"
 export default{
     data(){
         return{
-            cartStore: useCartStore()
+            cartStore: useCartStore(),
+            baseUrl: import.meta.env.BASE_URL
         }
     },
 

@@ -1,7 +1,7 @@
 <template>
     <div class="product-view">
         <div class="product">
-            <div class="product-img-box"><img :src="'/img/products/'+product.type+'/'+product.image"></div>
+            <div class="product-img-box"><img :src="baseUrl+'img/products/'+product.type+'/'+product.image"></div>
             <div class="product-info">
                 <h1>{{ product.name }}</h1>
                 <h2>{{ product.price }}€</h2>
@@ -15,11 +15,12 @@
 <script>
     import {useCartStore} from "../stores/cart.js"
     import data from '../data.json';
-    
+
     export default{
         data(){
             return{
-                cartStore: useCartStore()
+                cartStore: useCartStore(),
+                baseUrl: import.meta.env.BASE_URL
             }
         },
 
